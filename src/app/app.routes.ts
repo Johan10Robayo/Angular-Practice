@@ -5,7 +5,7 @@ export const routes: Routes = [
     {
         path: 'dashboard',
         loadComponent: ()=> import('./dashboard/dashboard.component'),
-        children: [
+        children: [ // estas son las rutas hijas
             {
                 path: 'change-detection',
                 title: 'Change Detection',
@@ -43,7 +43,13 @@ export const routes: Routes = [
 
             },
             {
-                path: '', redirectTo: 'control-flow'
+                path: 'view-transition',
+                title: 'View Transition',
+                loadComponent: ()=> import('./dashboard/pages/view-transition/view-transition.component'),
+
+            },
+            {
+                path: '', redirectTo: 'control-flow',pathMatch: 'full'
 
 
             }
