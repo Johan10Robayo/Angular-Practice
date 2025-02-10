@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViewTransitionComponent } from './view-transition.component';
+import { ViewTransitionComponent } from './view-transition1.component';
 
 describe('ViewTransitionComponent', () => {
   let component: ViewTransitionComponent;
