@@ -55,6 +55,12 @@ export const routes: Routes = [
 
             },
             {
+                path: 'form',
+                title: 'Form',
+                loadComponent: ()=> import('./dashboard/pages/forms/form/form.component'),
+
+            },
+            {
                 path: '', redirectTo: 'control-flow',pathMatch: 'full'
 
 

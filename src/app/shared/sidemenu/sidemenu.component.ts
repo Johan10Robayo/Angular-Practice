@@ -19,6 +19,6 @@ export class SidemenuComponent {
   .filter(route => !route.path?.includes(":"));
   
   constructor(){
-    
+    console.log(this.menuItems)
   }
 }
