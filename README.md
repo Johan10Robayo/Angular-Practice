@@ -2,7 +2,7 @@
 # Angular-Practice
 The purpose of this repo is only practice my skills using Angular 
 =======
-# Dashboard
+# Dashboard 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
 
